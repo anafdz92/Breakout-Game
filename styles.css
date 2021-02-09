@@ -1,0 +1,90 @@
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./images/cielo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  margin-top: 45px;
+}
+
+#score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  font-size: 25px;
+}
+
+.btn {
+  font-size: 20px;
+  margin-left: 25px;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-decoration: none;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+}
+.btn:hover,
+.btn:focus {
+  background-color: transparent;
+  color: #f39c12;
+  text-decoration: none;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: 1px solid blac;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #16a085;
+  left: 50px;
+  bottom: 50px;
+  border-radius: 5px;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #af7ac5;
+  border-radius: 5px;
+  left: 50px;
+  bottom: 50px;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #f39c12;
+}
