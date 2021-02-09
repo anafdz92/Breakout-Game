@@ -9,7 +9,6 @@ body {
 }
 
 .title {
-  overflow: hidden;
   color: white;
   font-size: 40px;
   display: flex;
@@ -20,7 +19,6 @@ body {
 }
 
 #score {
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +28,6 @@ body {
 }
 
 .btn {
-  overflow: hidden;
   font-size: 20px;
   margin-left: 25px;
   background: none;
@@ -54,13 +51,11 @@ body {
 }
 
 .container {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   padding-top: 40px;
 }
 .grid {
-  overflow: hidden;
   position: absolute;
   width: 560px;
   height: 300px;
@@ -68,7 +63,6 @@ body {
 }
 
 .block {
-  overflow: hidden;
   position: absolute;
   width: 100px;
   height: 20px;
@@ -79,7 +73,6 @@ body {
 }
 
 .user {
-  overflow: hidden;
   position: absolute;
   width: 100px;
   height: 20px;
@@ -90,7 +83,6 @@ body {
 }
 
 .ball {
-  overflow: hidden;
   position: absolute;
   width: 20px;
   height: 20px;
